@@ -1,6 +1,8 @@
 h1,
 h2,
+h3,
 a,
+p,
 footer {
   font-family: "Poppins", sans-serif;
 }
@@ -58,7 +60,32 @@ header a {
 
 section {
   max-width: 1200px;
-  margin: 0 auto;
+
+  padding: 100px;
+}
+
+.img-responsive {
+  margin-top: 25px;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-2-columns h2 {
+  font-size: 18px;
+  opacity: 40%;
+}
+
+.grid-2-columns h3 {
+  font-size: 24px;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
 }
 
 footer {
