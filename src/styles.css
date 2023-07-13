@@ -68,16 +68,14 @@ main {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px;
 }
 
 .img-responsive {
-  margin-top: 25px;
   display: block;
   width: 100%;
-  margin: auto;
 }
 
 .grid-2-columns {
@@ -99,17 +97,42 @@ section {
   font-weight: 300;
 }
 
-.grid-4-columns {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+section.secondary {
+  background-color: rgba(157, 157, 157, 0.871);
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
-  background-color: white;
-  margin: 25px;
+  background-color: rgba(255, 255, 255, 0.248);
+  margin: 5px;
 }
 
 .card p {
   font-weight: 200;
+}
+
+.card-header .grid {
+  grid-gap: 0;
+}
+
+.card-body {
+  padding: 0px 30px 30px 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px 30px;
+}
+
+.card .grid-2-columns {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .btn {
@@ -189,5 +212,11 @@ footer p a {
   section {
     padding: 30px;
     display: block;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
