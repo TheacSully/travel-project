@@ -98,7 +98,12 @@ section {
 }
 
 section.secondary {
-  background-color: rgba(157, 157, 157, 0.871);
+  background-color: #aab5c0;
+}
+.tertiary h2 {
+  opacity: 40%;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .grid-3-columns {
@@ -106,7 +111,7 @@ section.secondary {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.248);
+  background-color: rgba(191, 191, 191, 0.585);
   margin: 5px;
 }
 
